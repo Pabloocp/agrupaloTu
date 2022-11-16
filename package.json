@@ -1,0 +1,19 @@
+{
+  "name": "agrupalotu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^11.1.0",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.2"
+  }
+}
